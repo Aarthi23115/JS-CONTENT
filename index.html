@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script content</title>
+    <script>
+        const buttoncolor = () =>{
+            document.getElementById("changecolor").style.backgroundColor = "black"
+                 document.getElementById("changecolor").style.color = "white"
+        }
+        const buttoncolor1 = () =>{
+            document.getElementById("changecolor").style.backgroundColor = "white"
+                 document.getElementById("changecolor").style.color = "black"
+        }
+    </script>
+</head>
+<body id="changecolor">
+
+    <p id="text">hello world</p>
+    <button onclick="demo()">Change text</button>
+        <button onclick="buttoncolor()">dark mode</button>
+             <button onclick="buttoncolor1()">light mode</button>
+
+</body>
+</html>
